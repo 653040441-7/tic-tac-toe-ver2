@@ -5,6 +5,21 @@
   --foreground: #171717;
 }
 
+/* Custom animation */
+@keyframes spin360 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Custom utility class */
+.animate-spin360 {
+  animation: spin360 50s linear infinite;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
