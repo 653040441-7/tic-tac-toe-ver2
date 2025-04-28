@@ -50,3 +50,6 @@ table name is **histories**
 ```js
 npm run dev
 ```
+### set up tailwind
+ 
+    npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
